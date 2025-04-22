@@ -3,4 +3,4 @@ services:
     name: transaction-management
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn pratik:app
+    startCommand: gunicorn app:app
