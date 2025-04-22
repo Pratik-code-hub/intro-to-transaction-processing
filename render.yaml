@@ -1,6 +1,2 @@
 services:
-  - type: web
-    name: intro-to-transaction-processing
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn pratik:app  # <-- 'pratik' is the name of your Python file
+
